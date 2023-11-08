@@ -18,5 +18,7 @@ export class ProductosComponent implements OnInit{
       () => console.log('FIN')
     )
   }
-
+  mostrar(dato: any){
+    console.log(dato)
+  }
 }
